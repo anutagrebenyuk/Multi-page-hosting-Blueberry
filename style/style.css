@@ -7,6 +7,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 0;
+  padding: 30px;
 }
 img {
   border-radius: 5px;
@@ -16,4 +17,19 @@ img {
   padding: 30px 50px;
   border: 1px solid grey;
   border-radius: 10px;
+}
+.photo-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.links {
+  text-align: center;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  padding: 30px;
+}
+a:hover {
+  text-decoration: underline;
 }
