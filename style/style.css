@@ -49,8 +49,12 @@ a:hover {
 }
 
 .receipt-name {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   text-align: center;
-  padding: 0;
+  padding: 0px;
+  margin: 10px 0;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  background: rgba(230, 210, 249, 0.3);
 }
