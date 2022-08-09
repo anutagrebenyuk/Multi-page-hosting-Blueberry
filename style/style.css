@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #3b086cc5;
+  --2-accent-color: #535a8f;
+}
 body {
   text-align: justify;
   max-width: 800px;
@@ -8,20 +12,26 @@ h1 {
   text-align: center;
   margin-top: 0;
   padding: 30px;
+  color: var(--accent-color);
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 30px;
+  color: var(--accent-color);
 }
 img {
   border-radius: 5px;
 }
 .container-page {
   background: white;
-  padding: 30px 50px;
+  padding: 30px 40px;
   border: 1px solid grey;
   border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.photo-page {
-  display: flex;
-  justify-content: space-evenly;
-}
+
 .links {
   text-align: center;
   margin-top: 30px;
@@ -29,7 +39,18 @@ img {
 a {
   text-decoration: none;
   padding: 30px;
+  color: var(--accent-color);
+  font-size: 18px;
+  font-weight: bold;
 }
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.receipt-name {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  padding: 0;
 }
